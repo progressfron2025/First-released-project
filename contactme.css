@@ -1,0 +1,27 @@
+.holder1{
+    background-color: antiquewhite;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+}
+.holder1 ul{
+    margin: 1rem auto;
+    display: flex;
+    gap: 2rem;
+}
+.holder1 a{
+    color: rgb(71, 64, 206);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.holder2{
+    background-color: rgb(241, 225, 176);
+    width: 85%;
+    margin: 3rem auto;
+    border-radius: 6px;
+    box-shadow: 5px 6px 20px;
+    padding: 2rem;
+}

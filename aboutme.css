@@ -1,0 +1,63 @@
+fieldset{
+    width: 75%;
+    margin: 1rem auto;
+    height: auto;
+    border-radius: 9px;
+}
+form{
+    width: 100%;
+    height: auto;
+    background-color: rgb(210, 252, 252);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px;
+}
+form input{
+    border-radius: 9px;
+    border: none;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+form input:active{
+    border: 2px solid rgb(193, 207, 246);
+}
+.holder{
+    margin: 1rem;
+}
+.holder label{
+    font-size: 1.2rem;
+}
+.holder input[type="checkbox"],.holder
+input[type="radio"] {
+  
+  transform: scale(1.5);
+  
+  margin: 0.5rem;
+}
+label{
+    font-size: 1.3rem;
+}
+textarea{
+    resize: none;
+    border-radius: 9px;
+    padding: 1rem;
+    margin: 1.2rem;
+}
+input[type="submit"]{
+    border-radius: 9px;
+    width:80% ;
+    margin: 0 auto;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    background-color: antiquewhite;
+    text-shadow: 3px 2px 6px;
+    cursor: pointer;
+    transition: background-color 0.2s,color 0.2s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(71, 47, 15);
+    color: white;
+}
